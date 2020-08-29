@@ -214,7 +214,7 @@ def printLocation():
     print('----------------------------')
     write(f'- {ZONEMAP[player.location][ZONENAME]}')
     write(f'- {ZONEMAP[player.location][DESCRIPTION]}')
-    if not player.location == 'a1':
+    if not player.location == 'a2':
         write('- You have already solved this zone.' if player.location in SOLVEDZONES else '- You have not solved this zone.')
     else:
         write('- You do not need to solve this zone - It is your home.')
